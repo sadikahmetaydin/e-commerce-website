@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <nav class="container">
+  <nav id="nav">
     <div class="navTop">
       <div class="navItem">
         <img src="images/sneakers.png" alt="">
@@ -49,7 +49,9 @@
         <div class="sliderBg"></div>
         <h1 class="sliderTitle">AIR FORCE <br> NEW <br> SEASON</h1>
         <h2 class="sliderPrice">$119</h2>
-        <button class="buyButton">Buy Now</button>
+        <a href="#product">
+          <button class="buyButton">Buy Now</button>
+        </a>
       </div>
 
       <div class="sliderItem">
@@ -95,6 +97,196 @@
     </div>
   </div>
 
+  <div class="features">
+    <div class="feature">
+      <img src="./images/shipping.png" alt="" class="featureIcon">
+      <span class="featureTitle">FREE SHIPPING</span>
+      <span class="featureDesc">Free worldwide shipping on all orders.</span>
+    </div>
+
+    <div class="feature">
+      <img src="./images/return.png" alt="" class="featureIcon">
+      <span class="featureTitle">30 DAYS RETURN</span>
+      <span class="featureDesc">No question return and easy refund in 14 days.</span>
+    </div>
+
+    <div class="feature">
+      <img src="./images/gift.png" alt="" class="featureIcon">
+      <span class="featureTitle">GIFT CARDS</span>
+      <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+    </div>
+
+    <div class="feature">
+      <img src="./images/contact.png" alt="" class="featureIcon">
+      <span class="featureTitle">CONTACT US!</span>
+      <span class="featureDesc">Keep in touch via email and support system.</span>
+    </div>
+  </div>
+
+  <div class="product" id="product">
+    <img src="./images/air.png" alt="" class="productImg">
+    <div class="productDetails">
+      <h1 class="productTitle">AIR FORCE</h1>
+      <h2 class="productPrice">$199</h2>
+      <p class="productDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cumque nam explicabo,
+        quisquam accusantium at nobis, amet tempore cum, fuga corporis maiores possimus. Unde provident aliquam vel
+        corrupti quia deserunt.</p>
+
+      <div class="colors">
+        <div class="color"></div>
+        <div class="color"></div>
+      </div>
+
+      <div class="sizes">
+        <div class="size">40</div>
+        <div class="size">41</div>
+        <div class="size">42</div>
+      </div>
+
+      <button class="productButton">Buy Now</button>
+
+    </div>
+
+    <div class="payment" style="display: none;">
+      <h1 class="payTitle">Personal Information</h1>
+      <label>Name and Surname</label>
+      <input type="text" placeholder="John Doe" class="payInput">
+
+      <label>Phone Number</label>
+      <input type="text" placeholder="+1 234 5678" class="payInput">
+
+      <label>Adress</label>
+      <input type="text" placeholder="Elton St 21 22-145" class="payInput">
+
+      <h1 class="payTitle">Card Information</h1>
+      <div class="cardIcons">
+        <img src="images/visa.png" alt="" width="40" class="cardIcon">
+        <img src="images/master.png" alt="" width="40" class="cardIcon">
+      </div>
+
+      <input type="password" class="payInput" placeholder="Card Number ...">
+      <div class="cardInfo">
+        <input type="text" class="payInput sm" placeholder="M">
+        <input type="text" class="payInput sm" placeholder="Y">
+        <input type="text" class="payInput sm" placeholder="CV">
+      </div>
+
+      <button class="payButton">Checkout!</button>
+
+      <span class="close">X</span>
+
+    </div>
+  </div>
+
+  <div class="gallery">
+    <div class="galleryItem">
+      <h1 class="galleryTitle">Be Yourself!</h1>
+      <img
+        src="https://images.pexels.com/photos/9295809/pexels-photo-9295809.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+        alt="" class="galleryImg">
+    </div>
+
+    <div class="galleryItem">
+      <img
+        src="https://images.pexels.com/photos/1040427/pexels-photo-1040427.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+        alt="" class="galleryImg">
+      <h1 class="galleryTitle">This is the First Day of <br> Your New Life</h1>
+    </div>
+
+    <div class="galleryItem">
+      <h1 class="galleryTitle">Just Do it!</h1>
+      <img
+        src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+        alt="" class="galleryImg">
+    </div>
+  </div>
+
+  <div class="newSeason">
+    <div class="nwsItem">
+      <img
+        src="https://images.pexels.com/photos/4753986/pexels-photo-4753986.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+        alt="" class="nwsImg">
+    </div>
+
+    <div class="nwsItem">
+      <h3 class="nwsTitleSm">WINTER NEW ARRIVALS</h3>
+      <h1 class="nwsTitle">New Season</h1>
+      <h1 class="nwsTitle">New Collection</h1>
+
+      <a href="#nav">
+        <button class="nwsButton">CHOOSE YOUR STYLE</button>
+      </a>
+    </div>
+
+    <div class="nwsItem">
+      <img
+        src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+        alt="" class="nwsImg">
+    </div>
+  </div>
+
+  <footer>
+    <div class="footerLeft">
+      <div class="footerMenu">
+        <h1 class="footerMenuTitle">About Us</h1>
+        <ul class="footerList">
+          <li class="footerListItem">Company</li>
+          <li class="footerListItem">Contact</li>
+          <li class="footerListItem">Careers</li>
+          <li class="footerListItem">Affiliates</li>
+          <li class="footerListItem">Stores</li>
+        </ul>
+      </div>
+
+      <div class="footerMenu">
+        <h1 class="footerMenuTitle">Useful Links</h1>
+        <ul class="footerList">
+          <li class="footerListItem">Support</li>
+          <li class="footerListItem">Refund</li>
+          <li class="footerListItem">FAQ</li>
+          <li class="footerListItem">Feedback</li>
+          <li class="footerListItem">Stories</li>
+        </ul>
+      </div>
+
+      <div class="footerMenu">
+        <h1 class="footerMenuTitle">Products</h1>
+        <ul class="footerList">
+          <li class="footerListItem">Air Force</li>
+          <li class="footerListItem">Air Jordan</li>
+          <li class="footerListItem">Blazer</li>
+          <li class="footerListItem">Crater</li>
+          <li class="footerListItem">Hippie</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footerRight">
+      <div class="footerRightMenu">
+        <h1 class="footerMenuTitle">Subscribe to our newsletter</h1>
+        <div class="footerMail">
+          <input type="text" placeholder="your@email.com" class="footerInput">
+          <button class="footerButton">Join!</button>
+        </div>
+      </div>
+
+      <div class="footerRightMenu">
+        <h1 class="footerMenuTitle">Follow Us</h1>
+        <div class="footerIcons">
+          <img src="images/facebook.png" alt="" class="footerIcon">
+          <img src="images/twitter.png" alt="" class="footerIcon">
+          <img src="images/instagram.png" alt="" class="footerIcon">
+          <img src="images/whatsapp.png" alt="" class="footerIcon">
+        </div>
+      </div>
+
+      <div class="footerRightMenu">
+        <span class="copyright">...</span>
+      </div>
+    </div>
+
+  </footer>
 
   <script src="script.js"></script>
 </body>
